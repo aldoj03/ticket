@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Edenred';
+    src: url('EdenredLight-Regular.eot');
+    src: url('EdenredLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EdenredLight-Regular.woff2') format('woff2'),
+        url('EdenredLight-Regular.woff') format('woff'),
+        url('EdenredLight-Regular.ttf') format('truetype'),
+        url('EdenredLight-Regular.svg#EdenredLight-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Edenred';
+    src: url('EdenredBold-Regular.eot');
+    src: url('EdenredBold-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EdenredBold-Regular.woff2') format('woff2'),
+        url('EdenredBold-Regular.woff') format('woff'),
+        url('EdenredBold-Regular.ttf') format('truetype'),
+        url('EdenredBold-Regular.svg#EdenredBold-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

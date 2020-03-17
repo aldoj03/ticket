@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Flexibilidad_financiera" data-name="Flexibilidad financiera" transform="translate(-139 -1932)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(139 1932)" fill="none" stroke="#a1d6ca" stroke-width="6">
+      <circle cx="38" cy="38" r="38" stroke="none"/>
+      <circle cx="38" cy="38" r="35" fill="none"/>
+    </g>
+    <path id="Path_79" data-name="Path 79" d="M60.552,35.364a1.7,1.7,0,0,0-1.7-1.694L24.484,33.7a1.7,1.7,0,0,0-1.694,1.7l.021,19.249a1.7,1.7,0,0,0,1.7,1.694l34.366-.035a1.7,1.7,0,0,0,1.694-1.7l-.014-12.277L22.8,42.371,22.8,37.177l37.755-.035Z" transform="translate(135.685 1925.374)" fill="#42145f"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="16.194" height="2.229" transform="translate(160.773 1969.636) rotate(-0.062)" fill="#fff"/>
+    <path id="Path_80" data-name="Path 80" d="M60.562,38.67,22.8,38.7l.007,5.194,37.755-.035h0V38.67Z" transform="translate(135.682 1923.846)" fill="#fff"/>
+  </g>
+</svg>
