@@ -272,18 +272,6 @@ header .titulo p {
   position: relative;
 }
 
-.banner .form .number_container::before{
-  content: '';
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  bottom: 0;
-  width: 0; 
-  height: 0; 
-  border-top: 15px solid gray;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent; 
-}
 @media (max-width: 578px){
 
   .banner .form input[type="submit"]  {
@@ -299,12 +287,12 @@ content: '';
 content: '';
 position: absolute;
 width: 10px;
-bottom: 15px;
+bottom: 17px;
 right: 12px;
 height: 10px;
-border-top: 15px solid #808080bf;
-border-left: 10px solid transparent;
-border-right: 10px solid transparent;
+border-top: 10px solid #808080bf;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
 }
 .select_container::after{
 z-index: 40;
@@ -316,6 +304,9 @@ bottom: 15px;
 right: -2px;
 height: 18px;
 background: white;
+}
+.select_container.clicked::after{
+  transform: rotateX(180deg);
 }
 /*Separador*/
 
