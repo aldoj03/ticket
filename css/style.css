@@ -203,6 +203,9 @@ header .titulo p {
   letter-spacing: 1px;
   margin-left: 5px;
 }
+.banner .form select  {
+  margin-left: 0;
+}
 .banner .form input:not([type="submit"]),
 .banner .form select  {
   font-size: 0.8125rem ;
@@ -282,18 +285,20 @@ header .titulo p {
   background-color: #c3261a
 }
 .select_container::before{
-z-index: 50;
-content: '';
-content: '';
-position: absolute;
-width: 10px;
-bottom: 17px;
-right: 12px;
-height: 10px;
-border-top: 10px solid #808080bf;
-border-left: 8px solid transparent;
-border-right: 8px solid transparent;
+  z-index: 50;
+  content: '';
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: 17px;
+  right: 24px;
+  height: 10px;
+  border-top: 13px solid #80808052;
+  border-left: 7px solid transparent;
+  border-right: 8px solid transparent;
+  transition: 200ms;
 }
+
 .select_container::after{
 z-index: 40;
 content: '';
@@ -301,13 +306,11 @@ content: '';
 position: absolute;
 width: 10px;
 bottom: 15px;
-right: -2px;
+right: 4px;
 height: 18px;
 background: white;
 }
-.select_container.clicked::after{
-  transform: rotateX(180deg);
-}
+
 /*Separador*/
 
 .informacion {

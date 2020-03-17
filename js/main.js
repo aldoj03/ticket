@@ -29,15 +29,3 @@ function checkText(e) {
     return patron.test(tecla_final);
 }
     
-window.onload = ()=> {
-    const select = document.querySelector('.select_container select')
-
-    select.addEventListener("focus", function (){
-        console.log(select.parentElement);
-        select.parentElement.classList.add("clicked")
-        })
-    select.addEventListener("blur", function (){
-        console.log(select.parentElement);
-        select.parentElement.classList.remove("clicked")
-        })
-}
